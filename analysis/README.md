@@ -5,9 +5,9 @@ This module contains code for two types of analysis:
 2. Use significant correlation testing to get correlations between personality traits and attributes.
 
 ## Contents
-t-Tests.ipynb --------------------- Code for finding significant differences between men and women
-Unsignificant Correlations.ipynb -- Get raw correlations (might not be significant) between personality traits and attributes
-calculateSignificance.py ---------- Calculate significance of raw correlations calculated using Unsignificant Correlations.ipynb
+- **t-Tests.ipynb**: Code for finding significant differences between men and women
+- **Unsignificant Correlations.ipynb**:Get raw correlations (might not be significant) between personality traits and attributes
+- **calculateSignificance.py**: Calculate significance of raw correlations calculated using Unsignificant Correlations.ipynb
 
 ## Dependencies
 - Jupyter Notebook (http://jupyter.org/)
