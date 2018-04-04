@@ -11,7 +11,7 @@ This module loads all of the images and sends them through the MIT PlacesCNN, wh
 - Caffe version 0.9999 (this won't work with newer versions of Caffe)
 - PlacesCNN model (downloaded from https://github.com/BVLC/caffe/wiki/Model-Zoo#places-cnn-model-from-mit)
 
-##Quick Start
+## Quick Start
 This program must be run on a GPU.
 
 First, open up classifyScene.py and make sure that caffe is being imported from the correct location (lines 13-14).

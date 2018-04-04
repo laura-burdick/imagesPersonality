@@ -28,7 +28,9 @@ If an image is not in the right colorspace (Matlab does not support JPEG images
 with CMYK colorspaces), an error will be thrown, but the program will continue
 executing. The errors will be stored in a file called errors.txt. To convert an
 image to the right colorspace, use ImageMagick:
-	$ convert file1.jpg -colorspace RGB file1.jpg.
+```
+$ convert file1.jpg -colorspace RGB file1.jpg.
+```
 
 ## Output
 Results will be stored in features_color.csv, which has the following headers:

@@ -2,7 +2,7 @@
 
 This module loads the number of images and counts the number of faces in each image using a CNN.
 
-##Contents
+## Contents
 - **faceDetection.py**: script to do face detection
 - **detections_count.py**: script to count face detections
 
