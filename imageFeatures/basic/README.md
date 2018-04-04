@@ -1,4 +1,4 @@
-# Basic Image Features Module #
+# Basic Image Features Module
 
 This module calculates a number of basic image features:
 

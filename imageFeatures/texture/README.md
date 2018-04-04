@@ -1,41 +1,30 @@
-######################
-# Texture Module     #
-#                    #
-# Laura Wendlandt    #
-# wenlaura@umich.edu #
-######################
+# Texture Module
 
 This module calculates the gray-level cooccurence matrix (GLCM) for each image
 and calculates texture features based off of that. To better understand how the
 GLCM works, refer to the helpful tutorial at
 http://www.fp.ucalgary.ca/mhallbey/tutorial.htm.
 
---------
-Contents
---------
-textureFeatures.py -- script that takes either an image (or a directory path)
+## Contents
+- **textureFeatures.py**: script that takes either an image (or a directory path)
 	and outputs a CSV file containing texture metrics
 
-------------
-Dependencies
-------------
+## Dependencies
 - Python's numpy library (http://www.numpy.org/)
 - Python's scikit-image library (http://scikit-image.org/)
 - Python Image Library (http://www.pythonware.com/products/pil/)
 
------------
-Quick Start
------------
+## Quick Start
 In bash:
-	$ python textureFeatures.py someDirectory/myImage.jpg
-	$ python textureFeatures.py someDirectory
+```
+$ python textureFeatures.py someDirectory/myImage.jpg
+$ python textureFeatures.py someDirectory
+```
 
 The textureFeatures script takes one argument, either the full path of a single
 image or the path to a directory containing only images.
 
-------
-Output
-------
+## Output
 Results will be stored in features_texture.csv, which has the following headers:
 file, contrast, correlation, energy, homogeneity
 
@@ -45,7 +34,5 @@ file, contrast, correlation, energy, homogeneity
 	energy - the energy metric for the image
 	homogeneity - the homogeneity metric for the image
 
-------
-Timing
-------
+## Timing
 3m,22s for approximately 7765 images
