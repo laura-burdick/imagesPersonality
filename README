@@ -1,0 +1,14 @@
+################################################################
+# Multimodal Analysis and Prediction of Latent User Dimensions #
+################################################################
+
+If you use this code, please cite the following paper:
+@inproceedings{Wendlandt17Multimodal,
+author = {Wendlandt, L. and R. Mihalcea and R. Boyd and J. Pennebaker},
+title = {Multimodal Analysis and Prediction of Latent User Dimensions},
+booktitle = {Proceedings of the 9th International Conference on Social Informatics (SocInfo 2017)},
+year = {2017},
+address = {Oxford, UK}
+}
+
+E-mail Laura Wendlandt (wenlaura@umich.edu) with questions and comments.

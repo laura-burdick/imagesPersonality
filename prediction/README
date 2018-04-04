@@ -1,0 +1,25 @@
+######################
+# Prediction Module  #
+#                    #
+# Laura Wendlandt    #
+# wenlaura@umich.edu #
+######################
+
+Given all the extracted features, predict personality and gender.
+
+--------
+Contents
+--------
+- Prediction.ipynb -- Predict (using different settings)
+
+------------
+Dependencies
+------------
+- Jupyter Notebook (http://jupyter.org/)
+- Python Scikit-Learn (http://scikit-learn.org/stable/)
+- Python Scipy (https://www.scipy.org/)
+
+-----------
+Quick Start
+-----------
+Take a look at Prediction.ipynb

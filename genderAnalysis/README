@@ -1,0 +1,25 @@
+##########################
+# Gender Analysis Module #
+#                        #
+# Laura Wendlandt        #
+# wenlaura@umich.edu     #
+##########################
+
+Use a t-test to determine which attributes are significantly different between men and women.
+
+--------
+Contents
+--------
+t-Tests.ipynb -- Code for finding significant differences between men and women
+
+------------
+Dependencies
+------------
+- Jupyter Notebook (http://jupyter.org/)
+- Python Scipy (https://www.scipy.org/)
+
+-----------
+Quick Start
+-----------
+Take a look at the ipynb notebook.
+
