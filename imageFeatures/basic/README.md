@@ -1,9 +1,4 @@
-###############################
 # Basic Image Features Module #
-#                             #
-# Laura Wendlandt             #
-# wenlaura@umich.edu          #
-###############################
 
 This module calculates a number of basic image features:
 	1. Brightness and saturation - mean and standard deviation
@@ -20,9 +15,7 @@ This module calculates a number of basic image features:
 	   horizontal or vertical, while dynamic lines are lines that are slanted.
 	5. The number of circles. This is calculated using the Hough transform.
 
---------
-Contents
---------
+## Contents
 imageProcessing --- executable that takes either an image (or a directory path)
 	and outputs a CSV file containing the features
 color.h ----------- C++ class interface for color functions
@@ -34,9 +27,7 @@ featuresFile.cpp -- C++ class implementation for creating CSV files
 main.cpp ---------- function that calculates features and creates a CSV file
 Makefile ---------- instructions for building and linking the executable
 
-------------
-Dependencies
-------------
+## Dependencies
 To run executable:
 <NONE>
 
@@ -46,9 +37,7 @@ To build from code:
 - Boost (installation instructions can be found at
   http://www.boost.org/doc/libs/1_61_0/more/getting_started/index.html)
 
------------
-Quick Start
------------
+## Quick Start
 To run executable, in bash:
 	$ ./brightness_saturation <flags>
 
@@ -84,9 +73,7 @@ To build from code, first edit lines 1-19 of the Makefile and make sure that the
 paths to OpenCV and Boost are set up correctly. Then, in bash:
 	$ make
 
-------
-Output
-------
+## Output
 Results will be stored in image_features.csv, which has the following headers:
 file, brightness_mean, brightness_stddev, saturation_mean, saturation_stddevi,
 pleasure, arousal, dominance, red_%, blue_%, green_%, static_lines_%,
@@ -115,8 +102,6 @@ If the visualize_circles flag is set, then for each image in the directory, a
 new image will be created (in the same directory) with the circles drawn on the
 image.
 
-----------
-References
-----------
+## References
 Valdez, Patricia, and Albert Mehrabian. "Effects of color on emotions." Journal
 of experimental psychology: General 123.4 (1994): 394.
