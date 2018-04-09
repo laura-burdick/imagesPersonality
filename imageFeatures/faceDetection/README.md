@@ -5,6 +5,7 @@ This module loads the number of images and counts the number of faces in each im
 ## Contents
 - **faceDetection.py**: script to do face detection
 - **detections_count.py**: script to count face detections
+- Python 2.7 (doesn't work in Python 3)
 
 ## Dependencies
 - This module is dependent on the doppia code found at https://bitbucket.org/rodrigob/doppia. Before running any of this code, please make sure that this code base is installed.
