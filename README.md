@@ -1,13 +1,18 @@
 # Multimodal Analysis and Prediction of Latent User Dimensions
 Laura Wendlandt, Rada Mihalcea, Ryan Boyd, James Pennebaker
+
 Release date: April 9, 2018
 
 Language and Information Technologies (LIT)
+
 University of Michigan
 
 wenlaura@umich.edu
+
 mihalcea@umich.edu
+
 ryanboyd@utexas.edu
+
 pennebaker@utexas.edu
 
 ## Introduction
